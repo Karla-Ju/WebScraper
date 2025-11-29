@@ -17,7 +17,7 @@ browser = AsyncClient(
         "Accept-Language": "en-US,en;q=0.9,lt;q=0.8,et;q=0.7,de;q=0.6",
     },
     follow_redirects=True,
-    http2=True
+    http2=False
 )
 
 #Extract data from Apple
